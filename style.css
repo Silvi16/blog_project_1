@@ -7,7 +7,6 @@
 
 .main-container {
     margin: 0 20%;
-    /*position: relative;*/
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,7 +21,6 @@ header {
 }
 
 .container {
-    /*height: 100vh;*/
     position: relative;
     margin-bottom: 50px;
 }
@@ -43,6 +41,31 @@ h1 {
     border-radius: 20px;
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.8);
 }
+
+
+.box.one {
+    animation-name: box_one;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box_one {
+    0% {transform: translateX(-1500px);}
+    100% {transform: translateX(0);}
+}
+
+.box.two {
+    animation-name: box_two;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes box_two {
+    0% {transform: translateX(1500px);}
+    100% {transform: translateX(0);}
+}
+
+
 
 .title {
     color: cornsilk;
