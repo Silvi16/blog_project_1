@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@200&family=Parisienne&family=Tangerine&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-container {
+    margin: 0 20%;
+    /*position: relative;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(84, 84, 160);
+    
+}
+
+header {
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+.container {
+    /*height: 100vh;*/
+    position: relative;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    color: cornsilk;
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing: 0.8rem;
+    text-align: center;
+}
+
+.box {
+    margin: 200px;
+    height: 300px;
+    background-color: rgb(60, 60, 119);
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.8);
+}
+
+.title {
+    color: cornsilk;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 40px;
+}
+
+.results {
+    color: cornsilk;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.results {
+    padding: 10px 100px;
+}
