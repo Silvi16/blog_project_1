@@ -20,6 +20,10 @@ header {
     padding-top: 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     position: relative;
     margin-bottom: 50px;
@@ -42,7 +46,6 @@ h1 {
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.8);
 }
 
-
 .box.one {
     animation-name: box_one;
     animation-duration: 3s;
@@ -64,8 +67,6 @@ h1 {
     0% {transform: translateX(1500px);}
     100% {transform: translateX(0);}
 }
-
-
 
 .title {
     color: cornsilk;
