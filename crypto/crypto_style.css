@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@200&family=Parisienne&family=Tangerine&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --page: rgb(229, 239, 243);
+    --box_bitcoin: rgb(77, 206, 245);
+    --box_bitcoin_shadow: rgb(4, 58, 77, 0.8);
+}
+
+body {
+    background-color: var(--page);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bitcoin {
+    background-color: var(--box_bitcoin);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 8px 5px 3px 3px var(--box_bitcoin_shadow);
+}

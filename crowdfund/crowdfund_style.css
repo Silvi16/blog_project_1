@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@200&family=Parisienne&family=Tangerine&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(230, 217, 101);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
